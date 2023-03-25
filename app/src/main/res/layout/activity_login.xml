@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="15dp"
+
+    android:background="@drawable/bg5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:padding="20sp"
+        android:text="My Note App"
+        android:textColor="#376553"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border"
+        android:hint="Email"
+        android:text="admin@gmail.com"
+        android:layout_margin="10dp"
+        android:textSize="19sp"
+        android:inputType="textEmailAddress">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_border"
+        android:hint="Password"
+        android:text="123456"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:inputType="textPassword">
+
+    </EditText>
+    
+    <Button
+        android:id="@+id/btn_login"
+        android:text="Login"
+        android:layout_margin="10dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</LinearLayout>
